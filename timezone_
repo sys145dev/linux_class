@@ -1,0 +1,14 @@
+<시간 확인>
+date
+
+<현재 타임존 설정 확인>
+timedatectl
+
+<목록에서 서울 타임존 이름 검색>
+timedatectl list-timezones | grep -i seoul
+
+<타임존 서울로 설정>
+timedatectl set-timezone Asia/Seoul
+
+<타임존 설정 확인>
+timedatectl
