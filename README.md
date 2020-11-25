@@ -1,1 +1,1 @@
-# ubuntu_class
+# linux_class
